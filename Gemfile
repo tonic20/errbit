@@ -20,46 +20,44 @@ gem 'rails_autolink', '~> 1.0.9'
 # It's for internal use only, and we monkeypatch certain methods
 gem 'hoptoad_notifier', "~> 2.4"
 
-
 # Remove / comment out any of the gems below if you want to disable
 # a given issue tracker, notification service, or authentication.
 
 # Issue Trackers
 # ---------------------------------------
 # Lighthouse
-gem 'lighthouse-api'
+# gem 'lighthouse-api'
 # Redmine
 gem 'oruen_redmine_client', :require => 'redmine_client'
 # Pivotal Tracker
-gem 'pivotal-tracker'
+# gem 'pivotal-tracker'
 # Fogbugz
-gem 'ruby-fogbugz', :require => 'fogbugz'
+# gem 'ruby-fogbugz', :require => 'fogbugz'
 # Github Issues
-gem 'octokit', '~> 1.0.0'
+# gem 'octokit', '~> 1.0.0'
 # Gitlab
-gem 'gitlab'
+# gem 'gitlab'
 
 # Bitbucket Issues
-gem 'bitbucket_rest_api'
+# gem 'bitbucket_rest_api'
 
 # Notification services
 # ---------------------------------------
 # Campfire
-gem 'campy'
+# gem 'campy'
 # Hipchat
-gem 'hipchat'
+# gem 'hipchat'
 # Google Talk
 gem 'xmpp4r'
 # Hoiio (SMS)
-gem 'hoi'
+# gem 'hoi'
 # Pushover (iOS Push notifications)
-gem 'rushover'
+# gem 'rushover'
 
 # Authentication
 # ---------------------------------------
 # GitHub OAuth
 gem 'omniauth-github'
-
 
 platform :ruby do
   gem 'mongo', '= 1.6.2'
@@ -79,8 +77,8 @@ group :development, :test do
     gem 'pry-rails'
   end
 #  gem 'rpm_contrib'
-#  gem 'newrelic_rpm'
   gem 'capistrano'
+  gem "rvm-capistrano"
 end
 
 gem 'foreman', :group => :development
@@ -94,7 +92,7 @@ group :test do
 end
 
 group :heroku, :production do
-  gem 'unicorn'
+  # gem 'unicorn'
 end
 
 # Use thin for development
