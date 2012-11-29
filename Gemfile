@@ -26,33 +26,33 @@ gem 'hoptoad_notifier', "~> 2.4"
 # Issue Trackers
 # ---------------------------------------
 # Lighthouse
-# gem 'lighthouse-api'
+gem 'lighthouse-api'
 # Redmine
 gem 'oruen_redmine_client', :require => 'redmine_client'
 # Pivotal Tracker
-# gem 'pivotal-tracker'
+gem 'pivotal-tracker'
 # Fogbugz
-# gem 'ruby-fogbugz', :require => 'fogbugz'
+gem 'ruby-fogbugz', :require => 'fogbugz'
 # Github Issues
-# gem 'octokit', '~> 1.0.0'
+gem 'octokit', '~> 1.0.0'
 # Gitlab
-# gem 'gitlab'
+gem 'gitlab'
 
 # Bitbucket Issues
-# gem 'bitbucket_rest_api'
+gem 'bitbucket_rest_api'
 
 # Notification services
 # ---------------------------------------
 # Campfire
-# gem 'campy'
+gem 'campy'
 # Hipchat
-# gem 'hipchat'
+gem 'hipchat'
 # Google Talk
 gem 'xmpp4r'
 # Hoiio (SMS)
-# gem 'hoi'
+gem 'hoi'
 # Pushover (iOS Push notifications)
-# gem 'rushover'
+gem 'rushover'
 
 # Authentication
 # ---------------------------------------
